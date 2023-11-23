@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const navItems = <>
-        <li className="pl-4 uppercase"><Link>Home</Link></li>
-        <li className="pl-4 uppercase"><Link to='/menu'>menu</Link></li>
+        <li className="pl-4 uppercase btn btn-outline btn-warning"><Link>Home</Link></li>
+        <li className="pl-4 uppercase btn btn-outline btn-warning"><Link to='/menu'>menu</Link></li>
+        <li className="pl-4 uppercase btn btn-outline btn-warning"><Link to='/order'>order</Link></li>
     </>
     return (
         <div>
